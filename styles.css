@@ -1,0 +1,74 @@
+body{
+    height: 100%;
+    width: 100%;
+    
+}
+.card{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.2s ease-in-out;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+form{
+    margin-top: 10px;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+}
+p{
+    font-family:sans-serif;
+    opacity: 0.5;
+    margin-bottom: -0.5px;
+    font-size: 12px;
+}
+.im1{
+    height: 150px;
+}
+input{
+    padding: 10px;
+}
+button{
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+    background-color: rgb(87, 145, 0);
+    padding: 10px;
+    border-radius: 3rem;
+    color: white;
+    cursor: pointer;
+}
+.forgot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    background-color: rgb(239, 239, 239);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.forgot button{
+        border: none;
+        outline: none;
+        background-color: rgb(212, 4, 4);
+        padding: 10px;
+        color: white;
+        cursor: pointer;
+        border-radius: 6px;
+    }
+a{
+    
+    color: black;
+}
